@@ -12,6 +12,8 @@ public class ChessPosition {
 			throw new ChessException("Error instantiating ChessPosition. Valid value are from a1 at h8");
 		}
 
+		this.column = column;
+		this.row = row;
 	}
 
 	public char getColumn() {
